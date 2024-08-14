@@ -32,6 +32,8 @@ const Contacts = () => {
         </motion.p>
         <a
           href="mailto:your-vdshringare@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="mb-3 border-b block pb-10"
         >
           {CONTACT.email}

@@ -1,6 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -46,11 +47,11 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
-              <div className="mt-3">
+              {/* <div className="mt-3">
                 <button className="bg-purple-800 text-white px-2 py-1 rounded-md hover:bg-purple-900 focus:outline-none focus:ring-purple-500 focus:ring-offset-2 transform transition-transform hover:scale-110 active:scale-90">
                   View Project
                 </button>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         ))}

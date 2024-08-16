@@ -1,0 +1,15 @@
+import React from "react";
+import dronui from "../assets/droneui.mp4";
+
+const VideoPlayer = () => {
+  return (
+    <div>
+      <video width="100%" controls>
+        <source src={dronui} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  );
+};
+
+export default VideoPlayer;

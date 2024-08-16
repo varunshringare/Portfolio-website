@@ -3,7 +3,7 @@ import dronui from "../assets/droneui.mp4";
 
 const VideoPlayer = () => {
   return (
-    <div>
+    <div className="rounded-md overflow-hidden shadow-lg">
       <video width="100%" controls>
         <source src={dronui} type="video/mp4" />
         Your browser does not support the video tag.

@@ -48,7 +48,7 @@ const Projects = () => {
                 </span>
               ))}
               <div className="mt-3">
-                <Link to="/Project1">
+                <Link to={project.link}>
                   <button className="bg-purple-800 text-white px-2 py-1 rounded-md hover:bg-purple-900 focus:outline-none focus:ring-purple-500 focus:ring-offset-2 transform transition-transform hover:scale-110 active:scale-90">
                     View Project
                   </button>

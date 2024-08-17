@@ -4,6 +4,7 @@ import project3 from "../assets/projects/workout.png";
 import project4 from "../assets/projects/Pet.png";
 import project5 from "../assets/projects/texting.jpg";
 import project6 from "../assets/projects/volume.jpg";
+import project7 from "../assets/projects/caterer.png";
 
 export const HERO_CONTENT = `I am a passionate software engineer with expertise in Python programming, Java programming, ReactJS, C/C++, SQL, Machine Learning and AI, Web Development, and Power BI. My experience across various domains enables me to create robust and scalable solutions tailored to specific business needs. I strive to leverage my diverse skill set to drive innovation and deliver cutting-edge solutions that address complex challenges and push the boundaries of technology.`;
 
@@ -40,6 +41,7 @@ export const PROJECTS = [
       "Mediapipe",
       "Arduino IDE",
     ],
+    link: "/Project1",
   },
   {
     title: "Portfolio Website",
@@ -47,6 +49,15 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["ReactJs", "Tailwind CSS", "Framer motion", "Vite"],
+    link: "/Project2",
+  },
+  {
+    title: "Demo Landing page for Regh Caterers",
+    image: project7,
+    description:
+      "A landing page created for Regh Caterers showcasing their services, menu and staff.",
+    technologies: ["ReactJs", "Vanilla CSS"],
+    link: "/Project7",
   },
   {
     title: "Fitness Tracking App",
@@ -54,6 +65,7 @@ export const PROJECTS = [
     description:
       "A personal fitness tracking app integrated with machine learning models to identify and count workout reps performed by the user.",
     technologies: ["Python", "ReactJs", "Scikit-Learn", "Opencv", "Mediapipe"],
+    link: "/Project3",
   },
   {
     title: "Online Pet Supplies Store",
@@ -61,6 +73,7 @@ export const PROJECTS = [
     description:
       "A fully functional website utilized to order pet supplies implemented using the three layer business architecture.",
     technologies: ["ASP.NET", "C#", "CSS", "VsExpress", "SSMS"],
+    link: "/Project4",
   },
   {
     title: "Chatting Application",
@@ -68,6 +81,7 @@ export const PROJECTS = [
     description:
       "A client-server texting platform for sending and receiving messages.",
     technologies: ["Java", "AWT", "Socket programming"],
+    link: "/Project5",
   },
   {
     title: "Gesture Volume Controller",
@@ -75,6 +89,7 @@ export const PROJECTS = [
     description:
       "Well trained machine learning model used to adjust the system volume via simple hand gestures.",
     technologies: ["Python", "ReactJs", "Scikit-Learn", "Opencv", "Mediapipe"],
+    link: "/Project6",
   },
 ];
 

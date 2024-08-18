@@ -49,7 +49,7 @@ const Project1 = () => {
         challenges in terms of complexity and user experience. Our project
         addresses this gap by leveraging cutting-edge computer vision algorithms
         and machine learning techniques to enable users to control drones
-        seamlessly through intuitive
+        seamlessly through intuitive gestures.
       </p>
       <h1 className="my-6 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
         Demo video

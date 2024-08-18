@@ -1,7 +1,7 @@
 import React from "react";
 import dronui from "../assets/droneui.mp4";
 
-const VideoPlayer = () => {
+const Videoplayer = () => {
   return (
     <div className="rounded-md overflow-hidden shadow-lg">
       <video width="100%" controls>
@@ -12,4 +12,4 @@ const VideoPlayer = () => {
   );
 };
 
-export default VideoPlayer;
+export default Videoplayer;

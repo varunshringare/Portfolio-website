@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/VarunProfile.jpg";
 import { motion } from "framer-motion";
+import resume from "../assets/React-resume.pdf";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -41,6 +42,17 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              <motion.button
+                variants={container(1)}
+                initial="hidden"
+                animate="visible"
+                className="bg-transparent border-2 border-purple-700 text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-3 transform transition-transform hover:scale-105 active:scale-100"
+              >
+                View resume
+              </motion.button>
+            </a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">

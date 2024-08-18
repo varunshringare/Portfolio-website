@@ -1,6 +1,7 @@
 import aboutimg from "../assets/Project.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import resume from "../assets/React-resume.pdf";
 
 const About = () => {
   return (
@@ -36,6 +37,11 @@ const About = () => {
               {ABOUT_TEXT}
             </p>
           </div>
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+            <button className="bg-transparent border-2 border-purple-700 text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-3 transform transition-transform hover:scale-105 active:scale-100">
+              View resume
+            </button>
+          </a>
         </motion.div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Cat from "../assets/caterer.mp4";
+import Cat from "../assets/Food.mp4";
 
 const Catererplayer = () => {
   return (

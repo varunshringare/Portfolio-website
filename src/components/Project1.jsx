@@ -15,11 +15,11 @@ const Project1 = () => {
       <h1 className="pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-7xl text-center">
         Gesture control system for drones
       </h1>
-      <h1 className="mb-4 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
+      <h1 className="mb-4 text-center lg:mt-16 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
         Introduction
       </h1>
       <p
-        className="mb-12 text-neutral-300 text-xl justify-between"
+        className="mb-12  lg:mt-16 text-neutral-300 text-xl justify-between"
         style={{ textAlign: "justify", lineHeight: "2" }}
       >
         The rapid increase of drone technology has sparked a demand for

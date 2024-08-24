@@ -5,6 +5,7 @@ import project4 from "../assets/projects/Pet.png";
 import project5 from "../assets/projects/texting.jpg";
 import project6 from "../assets/projects/volume.jpg";
 import project7 from "../assets/projects/caterer.png";
+import project8 from "../assets/projects/OpenAi.png";
 
 export const HERO_CONTENT = `I am a passionate software engineer with expertise in Python programming, Java programming, ReactJS, C/C++, SQL, Machine Learning and AI, Web Development, and Power BI. My experience across various domains enables me to create robust and scalable solutions tailored to specific business needs. I strive to leverage my diverse skill set to drive innovation and deliver cutting-edge solutions that address complex challenges and push the boundaries of technology.`;
 
@@ -28,6 +29,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "AI Chatbot",
+    image: project8,
+    description:
+      "A Full Stack AI chatbot using the MERN stack (MongoDB, Express, React, Node.js) and TypeScript, featuring advanced authentication mechanisms. ",
+    technologies: ["MongoDB", "Express", "React", "Openai", "Node.js"],
+    link: "/Project8",
+  },
   {
     title: "Gesture Control System for Drones",
     image: project1,

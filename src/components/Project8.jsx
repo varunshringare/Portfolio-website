@@ -22,25 +22,25 @@ const Project8 = () => {
         className="mb-12  lg:mt-16 text-neutral-300 text-xl justify-between"
         style={{ textAlign: "justify", lineHeight: "2" }}
       >
-        AI SaaS Chatbot, built using the MERN stack, provides a powerful and
-        secure solution for interactive customer support and engagement.
-        Combining MongoDB, Express.js, React, and Node.js, the chatbot delivers
-        a robust and scalable platform capable of handling diverse
-        conversational needs. The chatbot features advanced authentication
-        mechanisms, including multi-factor authentication (MFA) and JSON Web
-        Tokens (JWT), to ensure secure access and session management. With
-        role-based access control, it offers tailored user experiences based on
-        permissions, safeguarding sensitive information and user interactions.
-        Leveraging sophisticated AI models, the chatbot engages in context-aware
-        conversations, understanding user intents and providing accurate
-        responses. This enables it to manage a wide range of queries, from
-        simple FAQs to complex problem-solving tasks, enhancing user
-        satisfaction and support efficiency. The MERN stack architecture ensures
-        seamless integration with other web technologies and services, offering
-        a dynamic and responsive user interface through React. The backend,
-        powered by Express.js and Node.js, handles server-side operations
-        efficiently, while MongoDB provides a flexible NoSQL database for
-        storing user data and chat histories.
+        A AI Chatbot based on using OpenAI as SaaS, built using the MERN stack,
+        provides a powerful and secure solution for interactive customer support
+        and engagement. Combining MongoDB, Express.js, React, and Node.js, the
+        chatbot delivers a robust and scalable platform capable of handling
+        diverse conversational needs. The chatbot features advanced
+        authentication mechanisms, including multi-factor authentication (MFA)
+        and JSON Web Tokens (JWT), to ensure secure access and session
+        management. With role-based access control, it offers tailored user
+        experiences based on permissions, safeguarding sensitive information and
+        user interactions. Leveraging sophisticated AI models, the chatbot
+        engages in context-aware conversations, understanding user intents and
+        providing accurate responses. This enables it to manage a wide range of
+        queries, from simple FAQs to complex problem-solving tasks, enhancing
+        user satisfaction and support efficiency. The MERN stack architecture
+        ensures seamless integration with other web technologies and services,
+        offering a dynamic and responsive user interface through React. The
+        backend, powered by Express.js and Node.js, handles server-side
+        operations efficiently, while MongoDB provides a flexible NoSQL database
+        for storing user data and chat histories.
       </p>
       <h1 className="my-6 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
         Demo video

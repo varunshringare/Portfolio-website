@@ -22,7 +22,7 @@ export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Associate Consultant Trainee",
-    company: "Appstrail.",
+    company: "Appstrail Technology.",
     description: `As an Associate Consultant Trainee, I am gaining expertise in providing strategic guidance and technical solutions to clients. My role involves collaborating with cross-functional teams, analyzing client requirements, and contributing to the implementation of innovative solutions that drive business success.`,
     technologies: [],
   },

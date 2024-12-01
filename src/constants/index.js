@@ -13,17 +13,17 @@ export const ABOUT_TEXT = `With an honors degree in BE Computer Engineering, my 
 
 export const EXPERIENCES = [
   {
-    year: "June, 2023 - September, 2023",
+    year: "July, 2023 - September, 2023",
     role: "Web Development Intern ",
     company: "Open Destinations Pvt Ltd.",
     description: `worked closely on the construction and development of the company’s website, gaining hands-on experience in web design and development. Additionally, I successfully created my own working website for a project, applying the skills and knowledge I acquired.`,
     technologies: ["ASP.NET", "Javascript", "C#", "SSMS", "VsExpress"],
   },
   {
-    year: "2024 - Present",
+    year: "November 2024 - Present",
     role: "Associate Consultant Trainee",
     company: "Appstrail Technology.",
-    description: `As an Associate Consultant Trainee, I am gaining expertise in providing strategic guidance and technical solutions to clients. My role involves collaborating with cross-functional teams, analyzing client requirements, and contributing to the implementation of innovative solutions that drive business success.`,
+    description: `As an Associate Consultant Trainee, I am gaining expertise in Salesforce platform and Mulesoft, providing strategic guidance and technical solutions to clients. My role involves collaborating with cross-functional teams, analyzing client requirements, and contributing to the implementation of innovative solutions that drive business success.`,
     technologies: [],
   },
 ];

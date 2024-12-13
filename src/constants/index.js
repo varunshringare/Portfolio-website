@@ -103,8 +103,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address:
-    "Hno.33, Sidharth Colony, near MES College, Vasco, Goa-403726, India",
+  address: "Vasco, Goa-403726, India",
   phoneNo: "+91 7385084958",
   email: "vdshringare@gmail.com",
 };

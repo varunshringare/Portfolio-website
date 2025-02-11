@@ -1,11 +1,12 @@
+import PropTypes from "prop-types";
 import aboutimg from "../assets/Project.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 import resume from "../assets/Recent-Resume.pdf";
 
-const About = () => {
+const About = ({ sectionId }) => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id={sectionId} className="border-b border-neutral-900 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -37,15 +38,19 @@ const About = () => {
               {ABOUT_TEXT}
             </p>
           </div>
-          <a href={resume} target="_blank" rel="noopener noreferrer">
+          {/* <a href={resume} target="_blank" rel="noopener noreferrer">
             <button className="bg-transparent border-2 border-purple-700 text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-3 transform transition-transform hover:scale-105 active:scale-100">
               View resume
             </button>
-          </a>
+          </a> */}
         </motion.div>
       </div>
     </div>
   );
+};
+
+About.propTypes = {
+  sectionId: PropTypes.string.isRequired,
 };
 
 export default About;

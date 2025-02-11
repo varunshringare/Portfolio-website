@@ -1,10 +1,11 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 
-const Contacts = () => {
+const Contacts = ({ sectionId }) => {
   return (
-    <div className="border-b border-neutral-900 pb-30">
+    <div id={sectionId} className="border-b border-neutral-900 pb-30">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -41,6 +42,10 @@ const Contacts = () => {
       </div>
     </div>
   );
+};
+
+Contacts.propTypes = {
+  sectionId: PropTypes.string.isRequired,
 };
 
 export default Contacts;

@@ -6,6 +6,8 @@ import project5 from "../assets/projects/texting.jpg";
 import project6 from "../assets/projects/volume.jpg";
 import project7 from "../assets/projects/caterer.png";
 import project8 from "../assets/projects/OpenAi.png";
+import appstrailLogo from "../assets/appstrail.jpeg";
+import opendest from "../assets/opendestination.jpeg";
 
 export const HERO_CONTENT = `I am a passionate software engineer with expertise in Python programming, Java programming, ReactJS, C/C++, SQL, Machine Learning and AI, Web Development, and Power BI. My experience across various domains enables me to create robust and scalable solutions tailored to specific business needs. I strive to leverage my diverse skill set to drive innovation and deliver cutting-edge solutions that address complex challenges and push the boundaries of technology.`;
 
@@ -18,13 +20,15 @@ export const EXPERIENCES = [
     company: "Open Destinations Pvt Ltd.",
     description: `worked closely on the construction and development of the company’s website, gaining hands-on experience in web design and development. Additionally, I successfully created my own working website for a project, applying the skills and knowledge I acquired.`,
     technologies: ["ASP.NET", "Javascript", "C#", "SSMS", "VsExpress"],
+    logo: opendest,
   },
   {
     year: "November 2024 - Present",
     role: "Associate Consultant Trainee",
     company: "Appstrail Technology.",
-    description: `As an Associate Consultant Trainee, I am gaining expertise in Salesforce platform and Mulesoft, providing strategic guidance and technical solutions to clients. My role involves collaborating with cross-functional teams, analyzing client requirements, and contributing to the implementation of innovative solutions that drive business success.`,
+    description: `As an Associate Consultant Trainee, I am gaining expertise in Salesforce platform and Mulesoft. My role involves collaborating with cross-functional teams, analyzing client requirements, and contributing to the implementation of innovative solutions that drive business success.`,
     technologies: [],
+    logo: appstrailLogo,
   },
 ];
 

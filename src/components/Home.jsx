@@ -9,12 +9,12 @@ import Contacts from "./Contacts";
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <About />
-      <Techno />
-      <Experience />
-      <Projects />
-      <Contacts />
+      <Hero sectionId="hero" />
+      <About sectionId="about" />
+      <Techno sectionId="techno" />
+      <Experience sectionId="experience" />
+      <Projects sectionId="projects" />
+      <Contacts sectionId="contacts" />
     </div>
   );
 };

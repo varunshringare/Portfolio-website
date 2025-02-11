@@ -1,11 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const Projects = () => {
+const Projects = ({ sectionId }) => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id={sectionId} className="border-b border-neutral-900 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -62,4 +63,7 @@ const Projects = () => {
   );
 };
 
+Projects.propTypes = {
+  sectionId: PropTypes.string.isRequired,
+};
 export default Projects;

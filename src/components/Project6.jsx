@@ -4,7 +4,7 @@ import Volumeplayer from "./Volumeplayer";
 
 const Project6 = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-8 lg:px-16">
+    <div className="container mx-auto px-1.5 sm:px-8 lg:px-16">
       {/* Go Back Button */}
       <div className="flex justify-start mt-5">
         <Link to={-1}>
@@ -25,7 +25,7 @@ const Project6 = () => {
       </h1>
       <p
         className="mb-12 text-neutral-300 text-base sm:text-lg lg:text-xl leading-relaxed text-justify"
-        style={{ lineHeight: "2" }}
+        style={{ lineHeight: "1.5" }}
       >
         As technology advances, the way we interact with our devices continues
         to evolve, with gesture-based controls offering a more intuitive and
@@ -44,8 +44,9 @@ const Project6 = () => {
         represents a step towards more natural and immersive ways of interacting
         with technology.
       </p>
-
-      {/* Video Section */}
+      <h1 className="my-6 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl sm:text-4xl lg:text-5xl tracking-tight text-transparent">
+        Demo video
+      </h1>
       <div className="mb-12">
         <Volumeplayer />
       </div>

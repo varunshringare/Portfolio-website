@@ -4,7 +4,7 @@ import Resumeplayer from "./Resumeplay";
 
 const Project2 = () => {
   return (
-    <div className="container mx-auto px-4 md:px-8">
+    <div className="container mx-auto px-1.5 md:px-8">
       <div className="flex justify-start mt-5">
         <Link to={-1}>
           <button className="bg-transparent border-2 border-purple-900 text-white text-base md:text-xl px-4 py-2 md:px-8 md:py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transform transition-transform hover:scale-105 active:scale-100">
@@ -23,7 +23,7 @@ const Project2 = () => {
 
       <p
         className="mb-12 text-neutral-300 text-sm md:text-lg lg:text-xl leading-relaxed"
-        style={{ textAlign: "justify" }}
+        style={{ textAlign: "justify", lineHeight: "1.5" }}
       >
         In today's digital age, having a personal online portfolio is essential
         for showcasing skills, projects, and professional accomplishments. I
@@ -37,7 +37,9 @@ const Project2 = () => {
         designs. Through this project, I aimed to create an intuitive user
         experience that reflects my skills and dedication to quality.
       </p>
-
+      <h1 className="my-6 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl sm:text-4xl lg:text-5xl tracking-tight text-transparent">
+        Demo video
+      </h1>
       <Resumeplayer />
 
       <div className="flex justify-start mt-5 mb-10 space-x-4 md:space-x-8">

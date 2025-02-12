@@ -4,7 +4,7 @@ import Catererplayer from "./Catererplayer";
 
 const Project5 = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-8 lg:px-16">
+    <div className="container mx-auto px-1.5 sm:px-8 lg:px-16">
       {/* Go Back Button */}
       <div className="flex justify-start mt-5">
         <Link to={-1}>
@@ -25,7 +25,7 @@ const Project5 = () => {
       </h1>
       <p
         className="mb-12 text-neutral-300 text-base sm:text-lg lg:text-xl leading-relaxed text-justify"
-        style={{ lineHeight: "2" }}
+        style={{ lineHeight: "1.5" }}
       >
         This project is a fully responsive demo landing page developed for Regh
         Caterers using ReactJS. The landing page serves as a dynamic showcase
@@ -46,13 +46,13 @@ const Project5 = () => {
         key information, this demo landing page effectively captures the essence
         of Regh Caterers and their commitment to exceptional service.
       </p>
-
-      {/* Video Section */}
+      <h1 className="my-6 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl sm:text-4xl lg:text-5xl tracking-tight text-transparent">
+        Demo video
+      </h1>
       <div className="mb-12">
         <Catererplayer />
       </div>
 
-      {/* Go Back Button */}
       <div className="flex justify-start mt-5 mb-10">
         <Link to={-1}>
           <button className="bg-transparent border-2 border-purple-700 text-white text-lg sm:text-xl px-6 sm:px-8 py-2 sm:py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transform transition-transform hover:scale-105 active:scale-100">

@@ -7,7 +7,7 @@ import pic4 from "../assets/Picture4.jpg";
 
 const Project3 = () => {
   return (
-    <div className="container mx-auto px-4 md:px-8">
+    <div className="container mx-auto px-1.5 md:px-8">
       <div className="flex justify-start mt-5">
         <Link to={-1}>
           <button className="bg-transparent border-2 border-purple-900 text-white text-base md:text-xl px-4 py-2 md:px-8 md:py-3 rounded-lg shadow-lg hover:bg-purple-950 focus:outline-none focus:ring-2 focus:ring-purple-500 transform transition-transform hover:scale-105 active:scale-100">
@@ -26,7 +26,7 @@ const Project3 = () => {
 
       <p
         className="mb-12 text-neutral-300 text-sm md:text-lg lg:text-xl leading-relaxed"
-        style={{ textAlign: "justify" }}
+        style={{ textAlign: "justify", lineHeight: "1.5" }}
       >
         In the realm of fitness and health, technology plays a pivotal role in
         helping individuals achieve their goals with precision and ease. I

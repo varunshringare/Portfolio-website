@@ -5,13 +5,14 @@ import VideoPlayer from "./Videoplayer";
 const Project1 = () => {
   return (
     <div className="container mx-auto px-8">
-      <Link to={-1}>
-        <div className="flex justify-left mt-5">
+      <div className="flex justify-left mt-5">
+        <Link to={-1}>
           <button className="bg-transparent border-2 border-purple-900  text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset--1 transform transition-transform hover:scale-105 active:scale-100">
             Go back
           </button>
-        </div>
-      </Link>
+        </Link>
+      </div>
+
       <h1 className="pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-7xl text-center">
         Gesture control system for drones
       </h1>

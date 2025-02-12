@@ -39,7 +39,7 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <nav className="relative mb-20 flex items-center justify-between py-6">
+    <nav className="fixed top-0 left-0 w-full bg-black bg-opacity-85 z-50 shadow-md flex items-center justify-between py-3 px-6">
       {/* Menu Toggle */}
       <button
         className="mx-4 flex items-center justify-center rounded p-2 text-2xl transition-transform hover:scale-110 active:scale-125"
@@ -97,7 +97,7 @@ const Navbar = () => {
       )}
 
       {/* Social Links */}
-      <div className="m-8 flex items-center justify-center gap-4 text-3xl">
+      <div className="flex items-center gap-4 text-3xl">
         <a
           href="https://github.com/varunshringare"
           target="_blank"

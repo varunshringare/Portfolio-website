@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaBars } from "react-icons/fa";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaSquareXTwitter, FaSalesforce } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 
 const Navbar = () => {
@@ -83,7 +83,7 @@ const Navbar = () => {
           </li>
           <li
             className="cursor-pointer py-2 text-lg text-white transition-colors hover:text-purple-500"
-            onClick={() => handleNavigation("contact")}
+            onClick={() => handleNavigation("certs")}
           >
             Certifications
           </li>
@@ -126,20 +126,20 @@ const Navbar = () => {
           <FaSquareXTwitter />
         </a>
         <a
+          href="https://www.salesforce.com/trailblazer/ife6aualzzyeaqf1jd"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transform transition-transform hover:scale-110 active:scale-125"
+          aria-label="Salesforce"
+        >
+          <FaSalesforce />
+        </a>
+        <a
           href="mailto:vdshringare@gmail.com"
           className="transform transition-transform hover:scale-110 active:scale-125"
           aria-label="Email"
         >
           <BiLogoGmail />
-        </a>
-        <a
-          href="https://www.instagram.com/varun_ds_"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transform transition-transform hover:scale-110 active:scale-125"
-          aria-label="Instagram"
-        >
-          <FaInstagram />
         </a>
       </div>
     </nav>

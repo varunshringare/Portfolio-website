@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Projects = ({ sectionId }) => {
   return (
-    <div id={sectionId} className="border-b border-neutral-900 pb-4">
+    <div id={sectionId} className=" py-12 border-b border-neutral-900 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -50,7 +50,7 @@ const Projects = ({ sectionId }) => {
               ))}
               <div className="mt-3">
                 <Link to={project.link}>
-                  <button className="bg-purple-800 text-white px-2 py-1 rounded-md hover:bg-purple-900 focus:outline-none focus:ring-purple-500 focus:ring-offset-2 transform transition-transform hover:scale-110 active:scale-90">
+                  <button className="bg-purple-900 text-white px-2 py-1 rounded-md hover:bg-green-600 focus:outline-none focus:ring-purple-500 focus:ring-offset-2 transform transition-transform hover:scale-110 active:scale-90">
                     View Project
                   </button>
                 </Link>

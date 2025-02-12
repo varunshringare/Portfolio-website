@@ -18,7 +18,7 @@ const Experience = ({ sectionId }) => {
         {EXPERIENCES.map((experience, index) => (
           <div
             key={index}
-            className="m-8 flex flex-wrap items-center gap-6 lg:justify-start"
+            className="m-8 flex flex-wrap items-center gap-6 lg:justify-center"
           >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}

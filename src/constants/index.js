@@ -5,13 +5,17 @@ import project4 from "../assets/projects/Pet.png";
 import project5 from "../assets/projects/texting.jpg";
 import project6 from "../assets/projects/volume.jpg";
 import project7 from "../assets/projects/caterer.png";
-import project8 from "../assets/projects/OpenAi.png";
+import project8 from "../assets/projects/chatg.jpeg";
 import appstrailLogo from "../assets/appstrail.jpeg";
 import opendest from "../assets/opendestination.jpeg";
 
-export const HERO_CONTENT = `I am a passionate software engineer with expertise in Python programming, Java programming, ReactJS, C/C++, SQL, Machine Learning and AI, Web Development, and Power BI. My experience across various domains enables me to create robust and scalable solutions tailored to specific business needs. I strive to leverage my diverse skill set to drive innovation and deliver cutting-edge solutions that address complex challenges and push the boundaries of technology.`;
+export const HERO_CONTENT = `I am a passionate software engineer with expertise in Python programming, Java programming, ReactJS, C/C++, SQL, Machine Learning and Web Development. My experience across various domains enables me to create robust and scalable solutions tailored to specific business needs. I strive to leverage my diverse skill set to drive innovation and deliver solutions that address challenges and explore the world of technology.`;
 
-export const ABOUT_TEXT = `With an honors degree in BE Computer Engineering, my journey in technology has been both fulfilling and dynamic. My academic background laid a strong foundation, further enriched by an impactful internship at Open Destinations Pvt Ltd, where I specialized in web development. Over the years, I have honed my skills in Python, Java, ReactJS, SQL, .NET, C/C++, as well as advanced tools like scikit-learn, PyTorch, and OpenCV. My hands-on experience includes notable projects such as developing a gesture control system for drones using machine learning, creating a workout tracking app leveraging ReactJS and machine learning, and building various websites with ReactJS and Node.js. Each project has not only broadened my expertise but has also fueled my eagerness to continue learning and developing innovative solutions in the ever-evolving field of technology.`;
+export const ABOUT_TEXT = `With an honors degree in BE Computer Engineering and a passion for innovation, I have cultivated a fulfilling and dynamic journey in technology. My academic foundation, complemented by an impactful internship at Open Destinations Pvt Ltd, laid the groundwork for my expertise in Python, Java, ReactJS, SQL, .NET, C/C++, and advanced tools like scikit-learn, PyTorch, and OpenCV.
+
+A highlight of my journey is the publication of my research paper, "Gesture Control System for Drones: Enhancing Human-Drone Interaction through Real-Time Machine Learning and Depth Sensing," in a Springer journal. This project demonstrated my ability to bridge theoretical knowledge and practical application, leveraging machine learning to enhance human-drone interaction.
+
+Currently, I am working at Appstrail Technology as a Mulesoft and Salesforce Admin Developer, where I manage integration and automation solutions to optimize business processes. In addition, I am actively learning Apex programming to deepen my expertise in Salesforce development and further expand my technical repertoire.`;
 
 export const EXPERIENCES = [
   {
@@ -27,7 +31,7 @@ export const EXPERIENCES = [
     role: "Associate Consultant Trainee",
     company: "Appstrail Technology.",
     description: `As an Associate Consultant Trainee, I am gaining expertise in Salesforce platform and Mulesoft. My role involves collaborating with cross-functional teams, analyzing client requirements, and contributing to the implementation of innovative solutions that drive business success.`,
-    technologies: [],
+    technologies: ["Salesforce", "Mulesoft", "Apex", "RAML", "Javascript"],
     logo: appstrailLogo,
   },
 ];

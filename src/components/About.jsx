@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import aboutimg from "../assets/Project.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
-import resume from "../assets/Recent-Resume.pdf";
 
 const About = ({ sectionId }) => {
   return (

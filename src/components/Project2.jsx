@@ -4,24 +4,26 @@ import Resumeplayer from "./Resumeplay";
 
 const Project2 = () => {
   return (
-    <div className="container mx-auto px-8">
-      <div className="flex justify-left mt-5">
+    <div className="container mx-auto px-4 md:px-8">
+      <div className="flex justify-start mt-5">
         <Link to={-1}>
-          <button className="bg-transparent border-2 border-purple-900  text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset--1 transform transition-transform hover:scale-105 active:scale-100">
+          <button className="bg-transparent border-2 border-purple-900 text-white text-base md:text-xl px-4 py-2 md:px-8 md:py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transform transition-transform hover:scale-105 active:scale-100">
             Go back
           </button>
         </Link>
       </div>
 
-      <h1 className="pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-7xl text-center">
-        Portfolio website
+      <h1 className="text-2xl md:text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl text-center mt-8">
+        Portfolio Website
       </h1>
-      <h1 className="mb-4 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
+
+      <h1 className="mb-4 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl md:text-5xl tracking-tight text-transparent">
         Introduction
       </h1>
+
       <p
-        className="mb-12 text-neutral-300 text-xl justify-between"
-        style={{ textAlign: "justify", lineHeight: "2" }}
+        className="mb-12 text-neutral-300 text-sm md:text-lg lg:text-xl leading-relaxed"
+        style={{ textAlign: "justify" }}
       >
         In today's digital age, having a personal online portfolio is essential
         for showcasing skills, projects, and professional accomplishments. I
@@ -35,10 +37,12 @@ const Project2 = () => {
         designs. Through this project, I aimed to create an intuitive user
         experience that reflects my skills and dedication to quality.
       </p>
+
       <Resumeplayer />
-      <div className="flex justify-left mt-5 mb-10 space-x-8">
+
+      <div className="flex justify-start mt-5 mb-10 space-x-4 md:space-x-8">
         <Link to={-1}>
-          <button className="bg-transparent border-2 border-purple-700 text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-3 transform transition-transform hover:scale-105 active:scale-100">
+          <button className="bg-transparent border-2 border-purple-700 text-white text-base md:text-xl px-4 py-2 md:px-8 md:py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transform transition-transform hover:scale-105 active:scale-100">
             Go back
           </button>
         </Link>

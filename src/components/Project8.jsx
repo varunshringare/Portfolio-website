@@ -4,26 +4,30 @@ import Chatbotplayer from "./Chatbotplayer";
 
 const Project8 = () => {
   return (
-    <div className="container mx-auto px-8">
-      <div className="flex justify-left mt-5">
+    <div className="container mx-auto px-4 sm:px-8 lg:px-16">
+      {/* Go Back Button */}
+      <div className="flex justify-start mt-5">
         <Link to={-1}>
-          <button className="bg-transparent border-2 border-purple-900  text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset--1 transform transition-transform hover:scale-105 active:scale-100">
+          <button className="bg-transparent border-2 border-purple-900 text-white text-lg sm:text-xl px-6 sm:px-8 py-2 sm:py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transform transition-transform hover:scale-105 active:scale-100">
             Go back
           </button>
         </Link>
       </div>
 
-      <h1 className="pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-7xl text-center">
+      {/* Page Title */}
+      <h1 className="pb-8 sm:pb-16 text-3xl sm:text-4xl lg:text-6xl font-thin tracking-tight mt-8 text-center">
         AI Chatbot
       </h1>
-      <h1 className="mb-4 text-center lg:mt-16 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
+
+      {/* Introduction Section */}
+      <h1 className="mb-6 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl sm:text-3xl lg:text-5xl tracking-tight text-transparent">
         Introduction
       </h1>
       <p
-        className="mb-12  lg:mt-16 text-neutral-300 text-xl justify-between"
-        style={{ textAlign: "justify", lineHeight: "2" }}
+        className="mb-12 text-neutral-300 text-base sm:text-lg lg:text-xl leading-relaxed text-justify"
+        style={{ lineHeight: "2" }}
       >
-        A AI Chatbot based on using OpenAI as SaaS, built using the MERN stack,
+        An AI Chatbot based on using OpenAI as SaaS, built using the MERN stack,
         provides a powerful and secure solution for interactive customer support
         and engagement. Combining MongoDB, Express.js, React, and Node.js, the
         chatbot delivers a robust and scalable platform capable of handling
@@ -43,13 +47,19 @@ const Project8 = () => {
         operations efficiently, while MongoDB provides a flexible NoSQL database
         for storing user data and chat histories.
       </p>
-      <h1 className="my-6 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
-        Demo video
+
+      {/* Demo Video Section */}
+      <h1 className="my-8 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl sm:text-3xl lg:text-5xl tracking-tight text-transparent">
+        Demo Video
       </h1>
-      <Chatbotplayer />
-      <div className="flex justify-left mt-5 mb-10 space-x-8">
+      <div className="mb-12">
+        <Chatbotplayer />
+      </div>
+
+      {/* Go Back Button */}
+      <div className="flex justify-start mt-5 mb-10">
         <Link to={-1}>
-          <button className="bg-transparent border-2 border-purple-700 text-white text-xl px-8 py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-3 transform transition-transform hover:scale-105 active:scale-100">
+          <button className="bg-transparent border-2 border-purple-700 text-white text-lg sm:text-xl px-6 sm:px-8 py-2 sm:py-3 rounded-lg shadow-lg hover:bg-purple-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transform transition-transform hover:scale-105 active:scale-100">
             Go back
           </button>
         </Link>

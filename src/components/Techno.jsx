@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import { RiReactjsLine } from "react-icons/ri";
 import python from "../assets/OIP.png";
 import Java from "../assets/download.png";
-import { FaNodeJs } from "react-icons/fa6";
 import { PiFileSqlDuotone } from "react-icons/pi";
-import { PiFramerLogoDuotone } from "react-icons/pi";
-import { SiOpencv } from "react-icons/si";
+import { SiSalesforce } from "react-icons/si";  
+import { SiSpringboot } from "react-icons/si";
+import { SiMulesoft } from "react-icons/si";
 import { animate, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -79,7 +79,7 @@ const Techno = ({ sectionId }) => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNodeJs className="text-7xl text-green-400" />
+          <SiSalesforce className="text-7xl text-blue-400" />
         </motion.div>{" "}
         <motion.div
           variants={iconVariants(3.5)}
@@ -95,7 +95,7 @@ const Techno = ({ sectionId }) => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <PiFramerLogoDuotone className="text-7xl text-grey-400" />
+          <SiSpringboot className="text-7xl text-green-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(5.5)}
@@ -103,7 +103,7 @@ const Techno = ({ sectionId }) => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiOpencv className="text-7xl text-yellow-400" />
+          <SiMulesoft className="text-7xl text-blue-500" />
         </motion.div>
       </motion.div>
     </div>
